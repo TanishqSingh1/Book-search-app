@@ -29,20 +29,19 @@ Frontend Setup
      command: git clone https://github.com/TanishqSingh1/Book_search_application.git
 
 2) Navigate to the Frontend Directory
-     command: cd Book_search_application/frontend
+     command: cd Book_search_application/book-search-app
 
 3) Install Dependencies
      command: npm install
 
 4) Run the Development Server
     command: npm start
-    The frontend application will be available at http://localhost:3000.
 
 Backend Setup
 --------------
 
 1)Navigate to the Backend Directory
-    command: cd Book_search_application/backend
+    command: cd Book_search_application/book-search-backend
     
 2)Install Dependencies
     command: npm install
