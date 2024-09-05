@@ -1,0 +1,66 @@
+.book-details {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 800px; /* Increased width for better layout */
+    margin: 20px auto;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .back-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .book-details-content {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Space between image and info */
+  }
+  
+  .book-details-image {
+    flex: 2; /* Allows the image container to take up space */
+  }
+  
+  .book-details-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .no-image {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    border-radius: 4px;
+  }
+  
+  .book-details-info {
+    flex: 10; 
+  }
+  
+  .book-details-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-details-info p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  

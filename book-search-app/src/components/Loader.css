@@ -1,0 +1,26 @@
+.loader-container {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 0.5s linear infinite;
+  }
+  .bottom-gif {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background: url('../images/Animation - 1725462721641.gif') no-repeat center center;
+    background-size: contain; /* Adjust size to fit container */
+    margin-top: 20px; /* Space between the cheetah loader and the bottom GIF */
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

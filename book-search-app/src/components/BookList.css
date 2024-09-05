@@ -1,0 +1,66 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-block {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+  }
+  
+  .book-block:hover {
+    transform: scale(1.05);
+  }
+  
+  .book-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .book-block p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 50px;
+  }
+  
+  .not_found_img{
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background: url('../images/Animation - 1725463362560.gif') no-repeat center center;
+    background-size: contain; /* Adjust size to fit container */
+    margin-top: 20px;
+  }
+ .no-book{
+    font-size: 14px;
+    color: #555;
+    margin-top: 80px;
+ }
+  .book-cover {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }
+  
+  .no-image {
+    width: 100%;
+    height: 180px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    border-radius: 4px;
+  }
+
+  
