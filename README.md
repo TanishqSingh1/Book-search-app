@@ -9,7 +9,7 @@ Book Details: View detailed information about each book, including title, author
 Loader: Visual indication while data is being fetched.
 Responsive Design: User-friendly design for both desktop and mobile devices.
 
-Technologies Used
+Technologies Used (intsalled first before use)
 ------------------
   *Frontend:
   
@@ -32,9 +32,16 @@ Frontend Setup
      command: cd Book_search_application/book-search-app
 
 3) Install Dependencies
-     command: npm install
+     commands:
+           npm install
+           npm install axios
+           npm install react-router-dom
+           npm install @nextui-org/react
+           npm install express
+           npm install cors
 
-4) Run the Development Server
+
+5) Run the Development Server
     command: npm start
 
 Backend Setup
